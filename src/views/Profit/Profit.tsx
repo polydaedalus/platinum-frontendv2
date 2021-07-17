@@ -69,7 +69,7 @@ const Farm: React.FC = () => {
   return (
     <Page>
         <Heading as="h1" size="lg" color="primary" mb="50px" style={{ textAlign: 'center' }}>
-            {TranslateString(999, 'Stake PLATIN to earn other tokens, decided by our community.')}
+            {TranslateString(998, 'Stake PLATIN to earn other tokens, decided by our community.')}
         </Heading>
       <PoolTabButtons />
       <Divider />
