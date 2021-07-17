@@ -189,7 +189,7 @@
     {
       "data": {
         "stringId": 348,
-        "text": "Dividends"
+        "text": "Pool"
       }
     },
     {
@@ -1252,6 +1252,12 @@
       "data": {
         "stringId": 10002,
         "text": "Stake tokens to earn PLATIN"
+      }
+    },
+    {
+      "data": {
+        "stringId": 999,
+        "text": "Stake PLATIN to earn other tokens, decided by our community."
       }
     },
     {

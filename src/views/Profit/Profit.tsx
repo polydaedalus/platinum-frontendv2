@@ -69,10 +69,7 @@ const Farm: React.FC = () => {
   return (
     <Page>
         <Heading as="h1" size="lg" color="primary" mb="50px" style={{ textAlign: 'center' }}>
-            {TranslateString(10002, 'Stake PLATIN to earn other tokens, decided by our community.')}
-        </Heading>
-        <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-        {TranslateString(557, 'Unfortunately there is a slight technical issue, the community pool will be delayed until approximately block 16975525.')}
+            {TranslateString(999, 'Stake PLATIN to earn other tokens, decided by our community.')}
         </Heading>
       <PoolTabButtons />
       <Divider />

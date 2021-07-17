@@ -57,7 +57,7 @@ const Home: React.FC = () => {
           {TranslateString(578, "A DeFi protocol focused on achieving sustainability and adapting to investors' needs.")}
         </Heading>
         <Heading as="h1" scale="md" mt="10px" mb="24px" color="secondary">
-          {TranslateString(545, 'Farming has already began (at ')}<a href="https://polygonscan.com/block/countdown/16805200" rel="noreferrer" target="_blank">block #16805200)</a>
+          {TranslateString(545, 'Farming has already begun (at ')}<a href="https://polygonscan.com/block/countdown/16805200" rel="noreferrer" target="_blank">block #16805200)</a>
         </Heading>  
       </Hero>
       <div>
