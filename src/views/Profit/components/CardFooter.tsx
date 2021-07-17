@@ -105,10 +105,31 @@ const CardFooter: React.FC<Props> = ({
                 <span role="img" aria-label="syrup">
                 {' '}
                 </span>
-                {TranslateString(408, 'Total')}
+                {TranslateString(999, 'Total DAI to be distributed')}
               </Label>
             </FlexFull>
-            <Balance fontSize="14px" isDisabled={isFinished} value={getBalanceNumber(totalStaked)} />
+            <Balance fontSize="14px" isDisabled={isFinished} value={2000} decimals={0} />
+          </Row>
+          <Row style={{ marginBottom: '4px' }}>
+            <FlexFull>
+              <Label>
+                <span role="img" aria-label="syrup">
+                {' '}
+                </span>
+                {TranslateString(999, 'DAI/block')}
+              </Label>
+            </FlexFull>
+            <Balance fontSize="14px" isDisabled={isFinished} value={0.0092} />
+          </Row>
+          <Row style={{ marginBottom: '4px' }}>
+            <FlexFull>
+              <Label>
+                <span role="img" aria-label="syrup">
+                {' '}
+                </span>
+                {TranslateString(999, 'Distributing until block #')}<a href="https://polygonscan.com/block/countdown/17136020" rel="noreferrer" target="_blank">17136020</a>
+              </Label>
+            </FlexFull>
           </Row>
           {blocksUntilStart > 0 && (
             <Row>
