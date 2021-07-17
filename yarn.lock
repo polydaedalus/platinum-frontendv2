@@ -11958,10 +11958,10 @@ pkg-up@^2.0.0:
   dependencies:
     find-up "^2.1.0"
 
-platinumfinancev2@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/platinumfinancev2/-/platinumfinancev2-1.0.3.tgz#fd409f120e24c944a41b40cb7c9b8f805c74079c"
-  integrity sha512-SrZRLkyOSqgzpwq4SGes0WRIVBkw8GB0amnoTVmTWfSQsm/htR+FX51TzUjk/0TwhphA00vqeEJbOlsZwgpWzw==
+platinumfinancev2@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/platinumfinancev2/-/platinumfinancev2-1.1.6.tgz#eaa4d7267f0c893c10e819149f094391ecada040"
+  integrity sha512-teDdHH1b7cJheEjPm2OHjNk6Oq48cCxgJQvhDTRo3Dm6FdXVsYrTej6hfgpoZ7sSi4D+NMb4pcCG0LpOWog+/g==
   dependencies:
     "@popperjs/core" "^2.9.2"
     "@types/lodash" "^4.14.168"

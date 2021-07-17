@@ -6,7 +6,7 @@ export default {
     137: '0x1E37A59cB7dA60c0b4273169eade2126ADf6cd7E',
   },
   sousMasterChef: {
-    137: ''
+    137: '0x462C91e1E5a596Ef74bABF46F68061A1836f020d'
   },
   weth: {
     137: "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619"

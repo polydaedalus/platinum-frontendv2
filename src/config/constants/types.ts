@@ -31,6 +31,7 @@ export enum QuoteToken {
   'PLATIN' = 'PLATIN',
   'WMATIC' = 'WMATIC',
   'MATIC' = 'MATIC',
+  'DAI' = 'DAI',
   'WETH' = 'WETH'
 }
 

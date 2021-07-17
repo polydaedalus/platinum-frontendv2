@@ -1,22 +1,22 @@
 import { PoolConfig, QuoteToken, PoolCategory } from './types'
 
 const pools: PoolConfig[] = [
-  // {
-  //   sousId: 0,
-  //   tokenName: 'WMATIC',
-  //   stakingTokenName: QuoteToken.CAKE,
-  //   stakingTokenAddress: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
-  //   contractAddress: {
-  //     137: '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270'
-  //   },
-  //   poolCategory: PoolCategory.CORE,
-  //   projectLink: 'https://pancakeswap.finance/',
-  //   harvest: true,
-  //   tokenPerBlock: '10',
-  //   sortOrder: 1,
-  //   isFinished: false,
-  //   tokenDecimals: 18,
-  // },
+  {
+    sousId: 1,
+    tokenName: 'DAI',
+    stakingTokenName: QuoteToken.PLATIN,
+    stakingTokenAddress: '0x782eb3304F8b9adD877F13a5cA321f72c4AA9804',
+    contractAddress: {
+     137: '0x462C91e1E5a596Ef74bABF46F68061A1836f020d'
+    },
+    poolCategory: PoolCategory.COMMUNITY,
+    projectLink: 'https://pancakeswap.finance/',
+    harvest: true,
+    tokenPerBlock: '0.0092',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+  }
   // {
   //   sousId: 1,
   //   tokenName: 'TWT',
