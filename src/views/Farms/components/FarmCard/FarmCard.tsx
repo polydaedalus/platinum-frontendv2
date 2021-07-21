@@ -47,7 +47,7 @@ const StyledCardAccent = styled.div`
 
 const FCard = styled.div`
   align-self: baseline;
-  background: ${(props) => props.theme.card.background};
+  background: linear-gradient(to top, ${(props) => props.theme.card.background.concat("C8")}, ${(props) => props.theme.card.background.concat("FF")});
   border-radius: ${({ theme }) => theme.radii.card};
   box-shadow: 0px 2px 12px -8px rgba(25, 19, 38, 0.1), 0px 1px 1px rgba(25, 19, 38, 0.05);
   display: flex;
