@@ -253,6 +253,21 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.usdc,
   },
 
+  {
+    pid: 13,
+    risk: 69,
+    lpSymbol: 'VERT-USDC LP',
+    lpAddresses: {
+      137: '0x668269d6E5D2c2dE31D132Ac218044211643622B'
+    },
+    tokenSymbol: 'VERT',
+    tokenAddresses: {
+      137: '0x72572ccf5208b59f4bcc14e6653d8c31cd1fc5a0'
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
+  },
+
 
 
 
