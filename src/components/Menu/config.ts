@@ -7,6 +7,16 @@ const config: MenuEntry[] = [
     href: '/',
   },
   {
+    label: 'Parallel farming',
+    icon: 'HamburgerIcon',
+    items: [
+      {
+        label: 'Iridium Finance',
+        href: 'https://iridiumfinance.app/',
+      },
+    ],
+  },
+  {
     label: 'Trade',
     icon: 'TradeIcon',
     items: [
