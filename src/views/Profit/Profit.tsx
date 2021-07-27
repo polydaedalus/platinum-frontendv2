@@ -14,6 +14,7 @@ import { useFarms, usePriceBnbBusd, usePools, usePoolFromPid } from 'state/hooks
 import { QuoteToken, PoolCategory } from 'config/constants/types'
 import FlexLayout from 'components/layout/Flex'
 import Page from 'components/layout/Page'
+import BG from '../BG'
 import Coming from './components/Coming'
 import PoolCard from './components/PoolCard'
 import PoolTabButtons from './components/PoolTabButtons'
@@ -67,6 +68,7 @@ const Farm: React.FC = () => {
   const [finishedPools, openPools] = partition(poolsWithApy, (pool) => pool.isFinished)
 
   return (
+    <>
     <Page>
         <Heading as="h1" size="lg" color="primary" mb="50px" style={{ textAlign: 'center' }}>
             {TranslateString(998, 'Stake PLATIN to earn other tokens, decided by our community.')}
@@ -89,6 +91,8 @@ const Farm: React.FC = () => {
         </Route>
       </FlexLayout>
     </Page>
+    <BG/>
+    </>
   )
 }
 

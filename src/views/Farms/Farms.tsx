@@ -13,6 +13,7 @@ import useRefresh from 'hooks/useRefresh'
 import { fetchFarmUserDataAsync } from 'state/actions'
 import { QuoteToken } from 'config/constants/types'
 import useI18n from 'hooks/useI18n'
+import BG from '../BG'
 import FarmCard, { FarmWithStakedValue } from './components/FarmCard/FarmCard'
 import FarmTabButtons from './components/FarmTabButtons'
 import Divider from './components/Divider'
@@ -94,6 +95,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
   )
 
   return (
+    <>
     <Page>
       <Heading as="h1" size="lg" color="primary" mb="50px" style={{ textAlign: 'center' }}>
         {
@@ -119,6 +121,8 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
         </FlexLayout>
       </div>
     </Page>
+    <BG/>
+    </>
   )
 }
 

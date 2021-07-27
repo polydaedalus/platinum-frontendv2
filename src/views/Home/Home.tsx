@@ -8,6 +8,7 @@ import Timer from './components/Timer'
 import CakeStats from './components/CakeStats'
 import TotalValueLockedCard from './components/TotalValueLockedCard'
 import TwitterCard from './components/TwitterCard'
+import BG from '../BG'
 
 const Hero = styled.div`
   align-items: center;
@@ -50,6 +51,7 @@ const Home: React.FC = () => {
   const TranslateString = useI18n()
 
   return (
+    <>
     <Page>
       <Hero>
         <img src= "/images/TitleBar.png" alt="cake logo" width={570} height={135} />
@@ -69,6 +71,8 @@ const Home: React.FC = () => {
         </Cards>
       </div>
     </Page>
+    <BG/>
+    </>
   )
 }
 
