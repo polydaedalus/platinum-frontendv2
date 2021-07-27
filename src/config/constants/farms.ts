@@ -3,6 +3,20 @@ import { FarmConfig, QuoteToken } from './types'
 
 const farms: FarmConfig[] = [
   {
+    pid: 14,
+    risk: 5,
+    lpSymbol: 'PLATIN-IRID LP',
+    lpAddresses: {
+      137: '0xD592bfB50ad10088A428F1a4e74213090fC4A6dC',
+    },
+    tokenSymbol: 'IRID',
+    tokenAddresses: {
+      137: '0x4523e85C144DE8Dd60acEc335bfC95fa87779D7C',
+    },
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
+  },
+  {
     pid: 0,
     risk: 5,
     lpSymbol: 'PLATIN-USDC LP',
