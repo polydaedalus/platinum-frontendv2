@@ -119,7 +119,7 @@ const CardFooter: React.FC<Props> = ({
                 {TranslateString(999, 'WBTC/block')}
               </Label>
             </FlexFull>
-            <Balance fontSize="14px" isDisabled={isFinished} value={0.0092} />
+            <Balance fontSize="14px" isDisabled={isFinished} value={0.00000034} decimals={8}/>
           </Row>
           <Row style={{ marginBottom: '4px' }}>
             <FlexFull>
