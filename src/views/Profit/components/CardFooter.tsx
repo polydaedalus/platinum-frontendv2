@@ -105,10 +105,10 @@ const CardFooter: React.FC<Props> = ({
                 <span role="img" aria-label="syrup">
                 {' '}
                 </span>
-                {TranslateString(999, 'Total DAI to be distributed')}
+                {TranslateString(999, 'Total WBTC to be distributed in $')}
               </Label>
             </FlexFull>
-            <Balance fontSize="14px" isDisabled={isFinished} value={2000} decimals={0} />
+            <Balance fontSize="14px" isDisabled={isFinished} value={4000} decimals={0} />
           </Row>
           <Row style={{ marginBottom: '4px' }}>
             <FlexFull>
@@ -116,7 +116,7 @@ const CardFooter: React.FC<Props> = ({
                 <span role="img" aria-label="syrup">
                 {' '}
                 </span>
-                {TranslateString(999, 'DAI/block')}
+                {TranslateString(999, 'WBTC/block')}
               </Label>
             </FlexFull>
             <Balance fontSize="14px" isDisabled={isFinished} value={0.0092} />
@@ -127,7 +127,7 @@ const CardFooter: React.FC<Props> = ({
                 <span role="img" aria-label="syrup">
                 {' '}
                 </span>
-                {TranslateString(999, 'Distributing until block #')}<a href="https://polygonscan.com/block/countdown/17136020" rel="noreferrer" target="_blank">17136020</a>
+                {TranslateString(999, 'Distributing until block #')}<a href="https://polygonscan.com/block/countdown/17659200" rel="noreferrer" target="_blank">17659200</a>
               </Label>
             </FlexFull>
           </Row>
