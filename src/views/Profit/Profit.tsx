@@ -74,7 +74,7 @@ const Farm: React.FC = () => {
             {TranslateString(10006, 'Stake IRID-PLATIN to earn other tokens.')}
         </Heading>
         <Heading as="h1" scale="md" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-            {TranslateString(10006, 'Tokens are decided as per community vote. Pools last 7 days.')}
+            {TranslateString(10006, 'Unfortunately, a contract flaw was discovered and abused. Please unstake from the pool. For more information, please visit the TG.')}
         </Heading>
       <Divider />
       <FlexLayout>
