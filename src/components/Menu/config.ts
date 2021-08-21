@@ -40,11 +40,11 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: '/pools',
   },
-  {
-    label: 'Community Pools',
-    icon: 'GroupsIcon',
-    href: '/community',
-  },
+  // {
+  //   label: 'Community Pools',
+  //   icon: 'GroupsIcon',
+  //   href: '/community',
+  // },
   // {
   //   label: 'Pools',
   //   icon: 'PoolIcon',
